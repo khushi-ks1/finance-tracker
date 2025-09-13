@@ -37,19 +37,6 @@ git clone https://github.com/khushi-ks1/finance-tracker.git
    python app.py
    ```
 5. Open it in your browser
-6. Project Structure-
-
-finance_tracker/
-│
-├─ app.py
-├─ transactions.db
-├─ style.css
-├─ script.js
-├─ requirements.txt
-├─ Procfile
-└─ templates/
-    └─ index.html 
-    
 
 
 
