@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💰 Personal Finance Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>💰 Personal Finance Tracker</h1>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Add Transaction</h2>
+      <form id="transaction-form">
+        <input type="text" id="description" placeholder="Enter description" required>
+        <input type="number" id="amount" placeholder="Enter amount" required>
+
+        <select id="type" required>
+          <option value="" disabled selected>Select Type</option>
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+
+        <select id="category" required>
+          <option value="" disabled selected>Select Category</option>
+        </select>
+
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section class="summary-section">
+      <h2>Summary</h2>
+      <div class="summary-box">
+        <p>Total Income: <span id="total-income">₹0</span></p>
+        <p>Total Expense: <span id="total-expense">₹0</span></p>
+        <p>Balance: <span id="balance">₹0</span></p>
+      </div>
+    </section>
+
+    <section class="transactions-section">
+      <h2>Transactions</h2>
+      <ul id="transaction-list"></ul>
+    </section>
+
+    <section class="chart-section">
+      <h2>Overview</h2>
+      <canvas id="pieChart"></canvas>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

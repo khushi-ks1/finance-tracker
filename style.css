@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #f1f1f1;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(30, 30, 30, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.8);
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #e91e63;
+  border-bottom: 2px solid #e91e63;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+input, select, button {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+input, select {
+  background: #222;
+  color: #fff;
+}
+
+button {
+  background: linear-gradient(135deg, #e91e63, #6a1b9a);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.summary-box {
+  background: #222;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+#transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+#transaction-list li {
+  background: #222;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.income {
+  color: #e91e63;
+}
+
+.expense {
+  color: #ff4d4d;
+}
+
+.chart-section {
+  text-align: center;
+}
+
+canvas {
+  max-width: 250px;
+  margin-top: 1rem;
+}
