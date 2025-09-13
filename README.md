@@ -1,6 +1,6 @@
 # Personal Finance Tracker
 
-💼 A sleek, beginner-friendly web app to track your income and expenses in real-time.
+💼 A web app to track your income and expenses in real-time.
 
 - **Live Demo:** [https://personal-finance-tracker.onrender.com](https://personal-finance-tracker.onrender.com)  
 - **Built With:** Python Flask, SQLite, HTML, CSS, JavaScript  
@@ -38,8 +38,8 @@ git clone https://github.com/khushi-ks1/finance-tracker.git
    ```
 5. Open it in your browser
 6. Project Structure-
-   ```
-   finance_tracker/
+
+finance_tracker/
 │
 ├─ app.py
 ├─ transactions.db
@@ -48,8 +48,8 @@ git clone https://github.com/khushi-ks1/finance-tracker.git
 ├─ requirements.txt
 ├─ Procfile
 └─ templates/
-    └─ index.html
-```
+    └─ index.html 
+    
 
 
 
